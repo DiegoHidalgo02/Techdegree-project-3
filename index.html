@@ -15,16 +15,21 @@
     </header>
     <main>
         <form>
-            <h2>Signup for our newsletter</h2>
-            <p>Get the latest news on how your code is doing right in your inbox</p>
+            <div class="form-head">
+                <h2>Signup for our newsletter</h2>
+                <p>Get the latest news on how your code is doing right in your inbox</p>
+            </div>
+
+            <div class="separetor"></div>
+            
             <fieldset>
                 <legend>Contact Information</legend>
 
                 <label for="name">Full Name</label>
-                <input type="text" name="name" id="name" placeholder="required" required>
+                <input type="text" name="name" id="name" placeholder="Required" required>
 
                 <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" placeholder="required" required>
+                <input type="email" name="email" id="email" placeholder="Required" required>
 
                 <label for="phone-number">Phone Number</label>
                 <input type="tel" name="phone-number" id="phone-number">
@@ -43,9 +48,18 @@
                 <legend>Newsletter</legend>
 
                 <label>Select the newsletters you would like to receive</label>
-                <input type="checkbox" name="user-newsletter" id="html-news"><label for="html-news">HTML News</label>
-                <input type="checkbox" name="user-newsletter" id="css-news"><label for="css-news">CSS News</label>
-                <input type="checkbox" name="user-newsletter" id="javascript-news"><label for="javascript-news">Javascript News</label>
+
+                <input type="checkbox" name="user-newsletter" id="html-news">
+                <label class="light" for="html-news">HTML News</label>
+                <br>
+
+                <input type="checkbox" name="user-newsletter" id="css-news">
+                <label class="light" for="css-news">CSS News</label>
+                <br>
+
+                <input type="checkbox" name="user-newsletter" id="javascript-news">
+                <label class="light" for="javascript-news">Javascript News</label>
+                <br>
 
                 <label>Newsletter format</label>
                 <input type="radio" name="user_newsletter-format" id="html"><label for="html">HTML</label>
