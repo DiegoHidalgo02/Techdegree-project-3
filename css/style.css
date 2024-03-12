@@ -56,7 +56,6 @@ main{
 
 
 fieldset {
-  margin-bottom: 30px;
   border: none;
 }
 
@@ -94,6 +93,10 @@ select{
   margin-bottom: 10%;
 }
 
+.contact-info>input:focus, .contact-info>select:focus{
+  outline: 3px solid rgb(45, 45, 109);
+}
+
 input::placeholder {
   font-style: italic;
   padding-left: calc(0% + 100vw);
@@ -104,6 +107,11 @@ input[type="radio"],
 input[type="checkbox"] {
   margin-right: 15px;
   margin-bottom: 25px;
+}
+
+hr {
+  margin-bottom: 30px;
+  border: 1px solid black;
 }
 
 .subtitle{
