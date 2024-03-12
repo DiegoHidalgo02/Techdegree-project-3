@@ -93,6 +93,7 @@ select{
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
   margin-bottom: 10%;
+  resize: none;
 }
 
 .contact-info>input:focus, .contact-info>select:focus{
@@ -145,4 +146,8 @@ hr {
   color: white;
   font-size: 1.3rem;
   margin-bottom: 25px;
+}
+
+.submit-section p{
+  color: #8a97a0;
 }
