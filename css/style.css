@@ -80,6 +80,8 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
+textarea,
 select{
   background: rgb(236, 236, 236);
   border: none;
@@ -103,6 +105,10 @@ input::placeholder {
 }
 
 
+input[type="number"]{
+  width: 50%;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
   margin-right: 15px;
@@ -120,11 +126,6 @@ hr {
 
 .newsletter-checkbox, .newsletter-radio{
   margin-bottom: 20px;
-}
-
-
-textarea{
-  width: 100%;
 }
 
 .textarea :first-child{
