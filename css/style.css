@@ -83,10 +83,10 @@ input[type="tel"],
 input[type="number"],
 textarea,
 select{
+  font-size: 1rem;
   background: rgb(236, 236, 236);
   border: none;
   height: auto;
-  font-size: 0.8rem;
   width: 100%;
   border-radius: 5px;
   padding: 7%;
@@ -100,10 +100,11 @@ select{
   outline: 3px solid rgb(45, 45, 109);
 }
 
-input::placeholder {
+input::placeholder{
   font-style: italic;
-  padding-left: calc(0% + 100vw);
+  text-align: right;
 }
+
 
 
 input[type="number"]{
@@ -129,6 +130,8 @@ hr {
   margin-bottom: 20px;
 }
 
+
+
 .textarea :first-child{
   margin-bottom: 17px;
 }
@@ -138,6 +141,7 @@ hr {
 }
 
 .submit-section button{
+  font-family: inherit;
   width: 100%;
   padding: 7%;
   border-radius: 5px;
