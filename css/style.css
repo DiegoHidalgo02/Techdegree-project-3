@@ -172,7 +172,6 @@ hr{
   }
 
   .contact-info label{
-    display: inline;
     margin-bottom: 0;
   }
 
@@ -188,8 +187,6 @@ hr{
   }
 
   .contact-info>div input, select{
-    display: inline;
-    float: right;
     width: 80%;
     margin-bottom: 0;
   }
