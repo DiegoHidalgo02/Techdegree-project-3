@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(16,12,8);
 }
 
 .header {
@@ -37,6 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: white;
   gap: 15px;
   margin-top: 5%;
 }
@@ -47,8 +48,8 @@ body {
 }
 
 .separetor{
-    border-top: 6px solid black;
-    border-bottom: 3.5px solid black;
+    border-top: 6px solid white;
+    border-bottom: 3.5px solid white;
     padding: 2px;
     margin: 45px 0 45px 0;
 }
@@ -61,6 +62,7 @@ legend {
   font-size: 1.3rem;
   margin-bottom: 30px;
   font-weight: bold;
+  color: white;
 }
 
 label {
@@ -121,7 +123,7 @@ input[type="checkbox"] {
 
 hr{
   margin: 10% 0 10% 0;
-  border: 1.6px solid black;
+  border: 1.6px solid white;
 }
 
 .subtitle{
@@ -152,6 +154,14 @@ hr{
   color: white;
   font-size: 1.3rem;
   margin-bottom: 25px;
+}
+
+.contact-info input, select{
+  transition: padding 1.5s;
+}
+
+.contact-info input:hover:not(input[id="zip"]), select:hover{
+  padding: 5%;
 }
 
 .submit-section p{
