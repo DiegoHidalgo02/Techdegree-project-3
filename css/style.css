@@ -40,6 +40,9 @@ body {
   color: white;
   gap: 15px;
   margin-top: 5%;
+  background-color: rgb(47, 79, 79);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .form-head :last-child {
@@ -57,6 +60,7 @@ body {
 fieldset {
   border: none;
 }
+
 
 legend {
   font-size: 1.3rem;
@@ -198,7 +202,7 @@ hr{
     width: 20%;
   }
 
-  .contact-info input:hover:not(input[id="zip"]), select:hover, input:hover:not(input[id="zip"]), select:focus{
+  .contact-info input:hover:not(input[id="zip"]), select:hover, input:focus:not(input[id="zip"]), select:focus{
     padding: 30px;
   }
 
