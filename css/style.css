@@ -198,8 +198,9 @@ hr{
     width: 20%;
   }
 
-  .contact-info input:hover:not(input[id="zip"]), select:hover{
+  .contact-info input:hover:not(input[id="zip"]), select:hover, input:hover:not(input[id="zip"]), select:focus{
     padding: 30px;
   }
+
 
 }
