@@ -187,7 +187,6 @@ hr{
 
   .contact-info>div{
     display: flex;
-    /*margin-bottom: 45px;*/
   }
 
   .contact-info>div input, select{
