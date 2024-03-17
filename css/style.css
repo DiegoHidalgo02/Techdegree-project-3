@@ -101,7 +101,7 @@ input[name="zip"]{
 }
 
 .contact-info>div input:focus, .contact-info>div select:focus{
-  outline: 4px solid rgb(43, 113, 135);
+  outline: 4px solid rgb(46, 188, 231);
 }
 
 input[type="email"]::placeholder, input[name="name"]::placeholder{
@@ -199,7 +199,7 @@ hr{
   }
 
   .contact-info input:hover:not(input[id="zip"]), select:hover{
-    padding: 4.58%;
+    padding: 30px;
   }
 
 }
